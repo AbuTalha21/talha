@@ -11,17 +11,20 @@ h1 {
     color: tomato;
 }
 
-section {
+.flexiable-container {
+    display: flex;
     display: flex;
 }
 
 .half {
     width: 50%;
     padding-left: 50px;
+
 }
 
 .half img {
     width: 80%;
+
 }
 
 .button {
@@ -49,4 +52,22 @@ section {
 
 .second {
     padding-left: 15px;
+}
+
+.area {
+    padding: 50px;
+}
+
+.experience {
+    margin: 12px;
+    box-shadow: 2px 2px 10px black;
+    border-width: 0;
+    border-left: 10px solid;
+    border-image: linear-gradient(#00f, #000) 0 100%;
+
+
+}
+
+footer {
+    text-align: center;
 }
